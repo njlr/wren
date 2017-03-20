@@ -36,3 +36,10 @@ ipch/
 *.user
 *.userosscache
 *.sln.docstates
+
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

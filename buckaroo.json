@@ -1,0 +1,6 @@
+{
+  "name": "wren",
+  "dependencies": {
+    "libuv": "1.11.0"
+  }
+}

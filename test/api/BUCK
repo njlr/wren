@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'api',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', '*.h'),
+  ]),
+  srcs = glob([
+    '*.c',
+  ]),
+  deps = [
+    '//:wren',
+  ],
+)
